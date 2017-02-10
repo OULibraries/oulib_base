@@ -145,7 +145,7 @@
 
 					<!-- <div class="libraryh3lp" jid="oulibrarian@chat.libraryh3lp.com" style="display: none;"><a href="#" onclick="window.open('https://us.libraryh3lp.com/chat/oulibrarian@chat.libraryh3lp.com?skin=16224', 'chat', 'resizable=1,width=320,height=200'); return false;"><img class="img-responsive" src="/sites/all/themes/oulib_bootstrap/img/sm_askus.png" /></a></div> -->
 					
-					<a href="/askus"><img class="img-responsive" src="/sites/all/themes/oulib_bootstrap/img/sm_askus.png" /></a>
+					<a href="/askus"><img class="img-responsive" src="/sites/all/themes/oulib_base/img/sm_askus.png" /></a>
 
 					<!-- <div class="libraryh3lp" style="display: none;"><a href="askus"><img class="img-responsive" src="/sites/all/themes/oulib_bootstrap/img/sm_askus_offline.png" /></a></div> -->
 
@@ -221,35 +221,6 @@
 		<?php endif; ?>
 	</div>
 
-<!-- Library Footer -->
-<div class="libfooter">
-
-
-	<div class="container-fluid">
-		<div class="row">
-			
-			<?php if (!empty($page['libfooter_first'])): ?>
-				<div class="col-md-4">
-				  <?php print render($page['libfooter_first']); ?>
-				</div> <!-- /#libfooter_first -->
-			<?php endif; ?> 
-			
-			<?php if (!empty($page['libfooter_second'])): ?>
-				<div class="col-md-4">
-				  <?php print render($page['libfooter_second']); ?>
-				</div> <!-- /#libfooter_first -->
-			<?php endif; ?> 
-			  
-			<?php if (!empty($page['libfooter_third'])): ?>
-				<div class="col-md-4">
-				  <?php print render($page['libfooter_third']); ?>
-				</div> <!-- /#libfooter_first -->
-			<?php endif; ?> 
-		   
-		</div>
-	</div>
-</div>
-
 
 <!-- ou global nav footer -->
   <div class="footer">
@@ -260,7 +231,7 @@
 
                 <div class="col-md-3" style="padding-bottom: 30px;">
 
-                    <img src="/sites/all/themes/oulib_bootstrap/img/footerlogo.png" alt="footerLogo" style="float: left; padding-right: 1em;" />
+                    <img src="/sites/all/themes/oulib_base/img/footerlogo.png" alt="footerLogo" style="float: left; padding-right: 1em;" />
 
                     <a href="http://libraries.ou.edu" target="_blank">University Libraries</a><br />
 
