@@ -214,12 +214,6 @@
 
 <!-- end body tag -->
 </div>
- <!-- Library Footer Detail-->
-<div class="libfooter_detail">
-		<?php if (!empty($page['libfooter_detail'])): ?>				
-			<?php print render($page['libfooter_detail']); ?>
-		<?php endif; ?>
-	</div>
 
 
 <!-- ou global nav footer -->
