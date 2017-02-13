@@ -89,10 +89,6 @@
 </div>
 
 
-
-
-
-
 <div id="top_regions">
 <div class="container-fluid">
 <div class="row">
@@ -114,7 +110,7 @@
 </div>
 
 
-<div class="carousel_inner hidden-xs">
+<div class="hidden-xs">
     <?php print render($page['header']); ?>
   </div> <!-- /#Main Banner -->
 
