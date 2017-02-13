@@ -116,7 +116,7 @@
 
 <div class="carousel_inner hidden-xs">
     <?php print render($page['header']); ?>
-  </div> <!-- /#Main Carousel -->
+  </div> <!-- /#Main Banner -->
 
 <!-- Menu -->
 <div class="container-fluid">
