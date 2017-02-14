@@ -177,7 +177,6 @@ h4 {
 }
 
 .paragraph_bundle_featured h2{
-	font-family: 'Droid Sans';
 	font-weight: bold;
 	font-size: 1.25em;
 }	
@@ -190,7 +189,6 @@ h4 {
 }
 
 .paragraph_bundle_featured_alt h2{
-	font-family: 'Droid Sans';
 	font-weight: bold;
 	font-size: 1.25em;
 }
@@ -221,7 +219,6 @@ h4 {
 }
 
 .paragraphs_location_description{
-	font-family: 'Droid Sans';
 	font-size: 1.2em;
 	font-weight: 300;
 	color: #565656;
