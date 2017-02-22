@@ -93,14 +93,14 @@
 <div class="container-fluid">
 <div class="row">
 	<?php if (!empty($page['logo'])): ?>
-		<div class="col-md-7 col-sm-12 col-xs-12">
+		<div class="col-md-6 col-sm-12 col-xs-12">
 			<?php print render($page['logo']); ?>
 		</div>
 	<?php endif; ?>
 	
 
 	<?php if (!empty($page['discover'])): ?>
-		<div class="col-md-5 col-sm-12 col-xs-12">
+		<div class="col-md-6 col-sm-12 col-xs-12">
 			<?php print render($page['discover']); ?>	
 		</div>
 	<?php endif; ?>
